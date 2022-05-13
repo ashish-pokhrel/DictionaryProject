@@ -1,1 +1,35 @@
 /* styling for dict.html */
+body{
+    background-color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    padding: 10px;
+    background-color: #cbcbcb;
+}
+
+.searchDiv {
+    margin-top: 0px;
+    /* background-color: #f1ebeb; */
+    text-align: center;
+}
+#search-list{
+    border: 2px solid black;
+    padding: 50px;
+    margin: 50px;
+    font-weight: bold;
+}
+
+button{
+    padding: 5px;
+    cursor: pointer;
+}
+input[type="text"]
+{
+    padding: 5px;
+}
+
+span{
+    font-weight: bold;
+    color: blue;
+}
