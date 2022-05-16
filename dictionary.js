@@ -36,7 +36,7 @@ app.get("/dict.js", (req, res) => {
 
 app.get('/search-word', function (req, res) {
     const searchWord = req.query.searchWord;
-    let sql = `SELECT * FROM entries.entries Where definition like '${searchWord}%'`;
+    let sql = `SELECT * FROM entries.entries Where word = '${searchWord}'`;
     connectDb.query(sql, function (err, data) {
         if (err) throw err;
         console.log(data);
